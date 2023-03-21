@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:white;
+}
+
+.container {
+    width: 100vw;
+    height: 78vh;
+    background-image: url("https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_large_assets/b214c3715517/assets/img/home/hero_photos/mBTG70TAjqcIovSuFMalDQ.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-container {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.search-container{
+    display: flex;
+    height: 100%;
+    box-shadow: 3px 3px 4px #A9A9A9;
+    
+}
+
+.input-wrapper1{
+    background-color: #fff;
+    border-radius: 05px 0px 0px 5px;
+    display: flex;
+    align-items: center;
+    left: 20px;
+    padding: 15px;
+    
+}
+
+.input-wrapper2{
+    background-color: #fff;
+    border-radius: 0px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    left: 20px;
+    padding: 15px;
+    
+}
+
+input{
+    margin: 0;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding-right: 10px;
+}
+
+.search-container > .input-wrapper:nth-child(1) > input {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: 1px solid rgb(0, 0, 0, 5);
+}
+
+.search-container > .input-wrapper:nth-child(1) {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.search-container > .input-wrapper:nth-child(2) {
+    padding: 10px 10px 10px 0;
+}
+
+.search-btn{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+    background-color: red;
+    outline: none;
+    border: none;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-btn img {
+    height: 80%;
+    width: 80%;
+}
+
+.search-btn:hover {
+    opacity: .8;
+}
+
+.links1:hover{
+    color: #fff;
+    background-color: rgba(255, 255, 255, .4);
+    border-radius: 4px;
+
+}
+
+.links2:hover{
+    color: #fff;
+    background-color: rgba(255, 255, 255, .4);
+    border-radius: 4px;
+
+}
+
+.links3:hover{
+    background-color: rgba(255, 255, 255, .4);
+
+}
+
+
+.links1{
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    margin-right: 15px;
+}
+
+.links2{
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
+
+
+.links3{
+    width: 100px;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.button-wrapper{
+    display: flex;
+    width: 200px;
+    
+}
+
+.input-bt:hover{
+    opacity: .9;
+
+}
+
+.input-bt{
+    border-radius:  3px 3px 3px 3px;
+    cursor: pointer;
+    background-color: red;
+    outline: none;
+    border: none;
+    width: 150px;
+    color: #fff;
+}
+
+.container-titulos{
+    color: white;
+    text-align: center;
+    margin-top: 110px;
+    margin-right: 100px;
+    font-size: 31px;
+
+}
+.secundario h3{
+    color: rgba(45,46,47,1);
+}
+.secundario{
+    color: black;
+    margin-top: 300px;
+    font-size: 25px;
+    margin-left: 80px;
+
+}
+
+.container-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.localizacao{
+    margin-left: 30px;
+}
+
+.card{
+    display: block;
+    padding-top: 1.5em;
+    border: solid 0.5px rgba(211,211,211,0.5);
+    width: 350px;
+    margin-top: 70px;
+}
+
+.imagem-central{
+    height: 200px;
+    width: 400px;
+    background-image: url("imagem-coroa2.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.imgn{
+    width: 348.984px;
+    height: 200px;
+    max-width: 500;
+}
+
+.header > img{
+    border-radius: 50%;
+    padding-bottom: 2em;
+}
+
+.header{
+    display: flex;
+    margin-left: 20px;
+}
+
+.like{
+    display: flex;
+    padding-top: 1em;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+button{
+   border: none;
+}
+
+.text{
+    margin-left: 10px;
+}
+
+.name{
+    
+    text-decoration: none;
+    font-size:larger;
+    font-weight: bold;
+    color: rgb(2 122 151);
+    
+}
+
+.names{
+    margin-right: 10px;
+    text-decoration: none;
+    font-size:inherit;
+    color: black;
+    font-weight: bold;
+
+}
+
+.adc-p{
+    font-weight: normal;
+}
