@@ -99,7 +99,7 @@ input{
 
 .links1:hover{
     color: #fff;
-    background-color: rgba(255, 255, 255, .3);
+    background-color: rgba(255, 255, 255, 0.233);
     border-radius: 4px;
     transition:0.2s all;
 }
@@ -112,7 +112,7 @@ input{
 }
 
 .links3:hover{
-    background-color: rgba(255, 255, 255, 0.171);
+    background-color: rgba(255, 255, 255, .3);
     transition:0.8s all;
 
 }
