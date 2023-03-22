@@ -28,7 +28,7 @@ body{
 .search-container{
     display: flex;
     height: 100%;
-    box-shadow: 3px 3px 4px #A9A9A9;
+    box-shadow: 3px 3px 4px #999999;
     
 }
 
@@ -78,7 +78,7 @@ input{
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     cursor: pointer;
-    background-color: red;
+    background-color:rgb(233, 15, 15);
     outline: none;
     border: none;
     width: 50px;
@@ -88,30 +88,32 @@ input{
 }
 
 .search-btn img {
-    height: 80%;
-    width: 80%;
+    height:60%;
+    width: 60%;
 }
 
 .search-btn:hover {
-    opacity: .8;
+    transform: scale(1); 
+    box-shadow: inset 7px 5px 15px rgba(255, 0, 0, 0.925);
 }
 
 .links1:hover{
     color: #fff;
-    background-color: rgba(255, 255, 255, .4);
+    background-color: rgba(255, 255, 255, .3);
     border-radius: 4px;
-
+    transition:0.2s all;
 }
 
 .links2:hover{
     color: #fff;
-    background-color: rgba(255, 255, 255, .4);
+    background-color: rgba(255, 255, 255, .3);
     border-radius: 4px;
-
+    transition:0.2s all;
 }
 
 .links3:hover{
-    background-color: rgba(255, 255, 255, .4);
+    background-color: rgba(255, 255, 255, 0.171);
+    transition:0.8s all;
 
 }
 
@@ -131,10 +133,10 @@ input{
 
 
 .links3{
-    width: 100px;
+    width: 200px;
     color: white;
     text-decoration: none;
-    padding: 8px;
+    padding: 6px;
     border: 2px solid white;
     border-radius: 5px;
     text-align: center;
@@ -148,17 +150,19 @@ input{
 }
 
 .input-bt:hover{
-    opacity: .9;
+    transform: scale(1); 
+    box-shadow: inset 7px 5px 15px rgb(255, 0, 0);
 
 }
 
 .input-bt{
     border-radius:  3px 3px 3px 3px;
     cursor: pointer;
-    background-color: red;
+    font-family:  'Poppins', sans-serif;
+    background-color: rgb(233, 15, 15);
     outline: none;
-    border: none;
-    width: 150px;
+   border-radius: 7px;
+    width: 270px;
     color: #fff;
 }
 
@@ -244,10 +248,9 @@ button{
 }
 
 .name{
-    
     text-decoration: none;
     font-size:larger;
-    font-weight: bold;
+    font-weight: 200;
     color: rgb(2 122 151);
     
 }
@@ -261,6 +264,6 @@ button{
 
 }
 
-.adc-p{
-    font-weight: normal;
+p{
+    font-family: 'Roboto', sans-serif;
 }
