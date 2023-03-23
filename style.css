@@ -15,6 +15,10 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
     font-family: 'Poppins', sans-serif;
 }
 
@@ -187,8 +191,9 @@ input{
 
 .container-card{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 4vh;
 }
 
 .localizacao{
