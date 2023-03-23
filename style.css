@@ -10,7 +10,7 @@ body{
 
 .container {
     width: 100vw;
-    height: 78vh;
+    height: 400px;
     background-image: url("https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_large_assets/b214c3715517/assets/img/home/hero_photos/mBTG70TAjqcIovSuFMalDQ.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -179,7 +179,7 @@ input{
 }
 .secundario{
     color: black;
-    margin-top: 300px;
+    margin-top: 150px;
     font-size: 25px;
     margin-left: 80px;
 
@@ -189,7 +189,6 @@ input{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
 }
 
 .localizacao{
