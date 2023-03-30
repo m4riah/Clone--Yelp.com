@@ -179,6 +179,10 @@ input{
 
 }
 .secundario h3{
+    text-align: center;
+    padding-top: 30px;
+    width: 50%;
+    margin: 0 auto;
     color: rgba(45,46,47,1);
 }
 .secundario{
@@ -220,6 +224,7 @@ input{
 }
 
 .imgn{
+    margin-top: 7px;
     width: 348.984px;
     height: 200px;
     max-width: 500;
@@ -235,6 +240,24 @@ input{
     margin-left: 20px;
 }
 
+.icon_svg{
+    margin-top: 5px;
+    margin-left: 6px;
+ 
+}
+
+.btn-like{
+    margin-left: 7px;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.btn-like:hover{
+    background-color: rgba(112, 110, 110, 0.288);
+    transition: 0.5s;
+}
+
 .like{
     display: flex;
     padding-top: 1em;
@@ -248,18 +271,23 @@ button{
 }
 
 .text{
-    margin-left: 10px;
+    margin-top: 7px;
+    margin-left: 14px;
 }
 
 .name{
     text-decoration: none;
-    font-size:larger;
-    font-weight: 200;
+    font-size: 15px;
+    font-weight: bold;
     color: rgb(2 122 151);
-    
+}
+
+.name:hover{
+    text-decoration: underline;
 }
 
 .names{
+    margin-left: 10px;
     margin-right: 10px;
     text-decoration: none;
     font-size:inherit;
@@ -268,6 +296,11 @@ button{
 
 }
 
+.names:hover{
+    text-decoration: underline;
+}
+
 p{
     font-family: 'Roboto', sans-serif;
+    margin-left: 10px;
 }
